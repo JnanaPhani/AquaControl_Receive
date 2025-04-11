@@ -15,7 +15,6 @@
 #include "esp_flash.h"
 
 void app_main(void);
-void print_system_memory_status();
-
+// void print_system_memory_status();
 
 #endif /*__RECEIVER_H__*/
