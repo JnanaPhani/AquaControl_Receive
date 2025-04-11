@@ -34,7 +34,7 @@
 #define WATER_LOWER_THRESHOLD           (30)
 #define WATER_UPPER_THRESHOLD           (90)
 
-#define TANK_SIZE_CM 200  // Example: 200 cm tank height
+#define TANK_SIZE_CM 140  // Example: 200 cm tank height
 
 // // sleep_enter_time stored in RTC memory
 // static RTC_DATA_ATTR struct timeval sleep_enter_time;
