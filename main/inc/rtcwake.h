@@ -1,5 +1,5 @@
-// #ifndef __RTCWAKE_H_
-// #define __RTCWAKE_H_
+#ifndef __RTCWAKE_H_
+#define __RTCWAKE_H_
 
 // #define CONFIG_WAKE_UP_TIME 10
 #pragma once
@@ -17,4 +17,4 @@ void deepsleep(void);
 }
 #endif
 
-// #endif /*__RTCWAKE_H_*/
+#endif /*__RTCWAKE_H_*/
