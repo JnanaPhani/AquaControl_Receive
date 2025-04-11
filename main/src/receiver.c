@@ -1,5 +1,7 @@
 #include <receiver.h>
+#include "esp_log.h"
 
+#define TAG_2 "APP"
 char *TAG = "RECEIVER_V1";
 char *TAG_1 = "SYSTEM_INFO";
 
@@ -8,6 +10,7 @@ extern uint8_t system_status;
 
 void app_main(void)
 {
+
 
     print_system_memory_status();
 
@@ -64,7 +67,8 @@ void print_system_memory_status() {
     gettimeofday(&tv, NULL);
     ESP_LOGI(TAG_1, "========== Program Version ============================================");
     ESP_LOGI(TAG_1, "[APP] Name: %s", app_desc->project_name);
-    ESP_LOGI(TAG_1, "[APP] Version: %s", app_desc->version);
+    
+    ESP_LOGI(TAG_1, "[APP] Version: %s", APP_VERSION);
     ESP_LOGI(TAG_1, "[APP] Compile Date: %s", app_desc->date);
     ESP_LOGI(TAG_1, "[APP] Compile Time: %s", app_desc->time);
     // ESP_LOGI(TAG_1, "=======================================================================");
