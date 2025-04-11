@@ -53,15 +53,19 @@ It supports both automatic and manual control modes, along with system status in
 git clone <repository-url>
 cd AquaController_Receiver
 
-# Configure the project
-idf.py menuconfig
-
 # Build the project
+. $HOME/esp/esp-idf/export.sh
+idf.py set-target esp32
 idf.py build
 
 # Flash the firmware to ESP32
-idf.py -p <your-port> flash
+sudo chmod a+rw <port>
+idf.py -p <port> build flash monitor
 
 # Monitor logs
 idf.py monitor
+
+
+
+
 
