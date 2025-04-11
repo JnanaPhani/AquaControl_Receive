@@ -3,6 +3,7 @@
 
 #include "driver/gpio.h"
 #include <esp_log.h>
+
 void lora_reset(void);
 void lora_explicit_header_mode(void);
 void lora_implicit_header_mode(int size);
@@ -26,6 +27,6 @@ int lora_packet_rssi(void);
 float lora_packet_snr(void);
 void lora_close(void);
 int lora_initialized(void);
-void lora_dump_registers(void);
+// void lora_dump_registers(void);
 
 #endif
