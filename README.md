@@ -24,19 +24,19 @@ It supports both automatic and manual control modes, along with system status in
 
 ## Pin Configuration
 
-| **Function Pin  | **ESP32 Pin |
-|----------------|------------|
-| LoRa Reset    | GPIO5     |
-| LoRa MISO     | GPIO12    |
-| LoRa MOSI     | GPIO13    |
-| LoRa SCK      | GPIO14    |
-| LoRa NSS (CS) | GPIO15    |
-| LoRa DIO      | GPIO34    |
-| LED D4        | GPIO18    |
-| LED D3        | GPIO19    |
-| LED D2        | GPIO21    |
-| LED D1        | GPIO22    |
-| Manual Switch | GPIO27    |
+| ##Function Pin  | ##ESP32 Pin |
+|-----------------|-------------|
+| LoRa Reset      | GPIO5       |
+| LoRa MISO       | GPIO12      |
+| LoRa MOSI       | GPIO13      |
+| LoRa SCK        | GPIO14      |
+| LoRa NSS (CS)   | GPIO15      |
+| LoRa DIO        | GPIO34      |
+| LED D4          | GPIO18      |
+| LED D3          | GPIO19      |
+| LED D2          | GPIO21      |
+| LED D1          | GPIO22      |
+| Manual Switch   | GPIO27      |
 
 ## Getting Started
 
