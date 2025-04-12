@@ -25,7 +25,7 @@ It supports both automatic and manual control modes, along with system status in
 ## Pin Configuration
 
 | Function Pin  | ESP32 Pin |
-|---------------------------|
+|---------------|-----------|
 | LoRa Reset    | GPIO5     |
 | LoRa MISO     | GPIO12    |
 | LoRa MOSI     | GPIO13    |
