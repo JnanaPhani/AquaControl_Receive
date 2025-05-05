@@ -1,4 +1,4 @@
- AquaController Receiver
+# AquaController Receiver
 
 Receiver firmware for the **AquaController** project.  
 This module is responsible for receiving water level data over LoRa and controlling the motor accordingly.  
